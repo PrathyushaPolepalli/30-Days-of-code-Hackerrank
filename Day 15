@@ -1,0 +1,15 @@
+  public static  Node insert(Node head,int data) {
+        Node temp = new Node(data);
+        Node temp2 = head;
+        if(head==null){
+            head = temp;
+        }
+        else{
+            while(temp2.next!=null){
+                temp2=temp2.next;
+            }
+            temp2.next=temp;  
+        }
+        return head;
+        //Complete this method
+    }
