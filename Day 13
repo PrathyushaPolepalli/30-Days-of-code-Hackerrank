@@ -1,0 +1,14 @@
+class MyBook extends Book{
+     int price;
+     String t,a;
+     MyBook(String t, String a, int Price){
+         super(t,a);
+         price = Price;
+         
+     }
+     void display(){
+         System.out.println("Title: " + title);
+         System.out.println("Author: " + author);
+         System.out.println("Price: " + price);
+     }
+ }   
